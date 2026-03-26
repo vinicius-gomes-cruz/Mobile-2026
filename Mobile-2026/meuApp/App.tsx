@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import { View, Text, Image } from "react-native";
+import Mensagem from "./src/components/Mensagem";
 
 interface Imagemprops{
   largura: number;
@@ -20,6 +21,8 @@ class App extends Component {
                  </Text>
  
                  <Imagem largura={300} altura={300} nome2={"Teste Props Logo React"}/>
+
+                 <Mensagem />
  
                  <Text style={{fontSize: 30 }}>{nome}</Text>
  
